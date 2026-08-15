@@ -1,5 +1,5 @@
 const navLinks = [...document.querySelectorAll("[data-nav]")];
-const sectionIds = ["home","experience","projects","stack","contact"];
+const sectionIds = ["home","experience","projects","stack","education","contact"];
 const sections = sectionIds.map(id => document.getElementById(id));
 const menuButton = document.getElementById("menuButton");
 const mainNav = document.querySelector(".main-nav");

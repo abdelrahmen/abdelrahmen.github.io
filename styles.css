@@ -162,7 +162,13 @@ h1 em{font-style:normal;color:var(--accent)}
 .contact-card{padding:34px 38px;display:flex;justify-content:space-between;gap:40px;align-items:center}
 .contact-card h2{font-size:34px;margin:9px 0 8px}
 .contact-card p{margin:0;color:#c4ccd7}
+.contact-meta{margin-top:12px!important;font-size:14px;color:#9aa6b8!important}
+.contact-meta a{color:#c6d8ff}
+.contact-meta a:hover{color:#fff}
 .contact-actions{display:flex;gap:10px;flex-wrap:wrap}
+
+.credentials-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+.credential-detail{margin:16px 0 0;color:#c3ccd8;font-size:15px}
 
 .site-footer{border-top:1px solid var(--line);background:var(--bg-deep);padding:39px 0}
 .footer-wrap{display:flex;justify-content:space-between;gap:20px;align-items:center;color:#b9c4d3;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:12px;letter-spacing:.05em}
@@ -200,6 +206,7 @@ h1 em{font-style:normal;color:var(--accent)}
   .architecture-box{width:100%}
   .skills-grid{grid-template-columns:1fr}
   .skill-card.wide{grid-column:auto}
+  .credentials-grid{grid-template-columns:1fr}
   .with-rule{display:block}
   .with-rule:after{display:block;margin-top:10px}
   .contact-card{align-items:flex-start;flex-direction:column}
